@@ -1,0 +1,1 @@
+@powershell.exe -windowstyle hidden -NoProfile -ExecutionPolicy Bypass -File "%~dp0KB-REMOVER.ps1"

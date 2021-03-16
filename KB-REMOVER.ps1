@@ -7,7 +7,7 @@ Add-Type -AssemblyName PresentationCore,PresentationFramework
 $ButtonType = [System.Windows.MessageBoxButton]::OK
 $MessageIcon = [System.Windows.MessageBoxImage]::WARNING
 $MessageBody = "Votre ordinateur devra redémarrer après une mise à niveau importante, enregistrer votre travail et cliquer sur OK. Une fois que vous aurez cliqué sur OK, le processus démarrera. Veuillez patienter pour une dizaine de minutes. Merci"
-$MessageTitle = "!IMPORTANT! Soutien technique Savoura"
+$MessageTitle = "!IMPORTANT! Soutien technique"
  
 $Result = [System.Windows.MessageBox]::Show($MessageBody,$MessageTitle,$ButtonType,$MessageIcon)
 
